@@ -203,7 +203,7 @@ gallery-box {
 }
 
 /*arrow bounce*/
-.fa {
+.fontaws {
  width: 60px;
  display: block;
  text-align: center;
@@ -350,9 +350,42 @@ gallery-box {
     }
   }
 }
-
-.rating {
-    float: right;
+.no-bullets {
+  list-style-type: none;
 }
 
+.span-style {
+  display: inline-block;
+  width: 77%;
+}
+
+.rating {
+/*    float: right;
+*/}
+
+.flexy {
+  display: flex;
+}
+
+/*stars*/
+
+.skills-title {
+  display: inline-block;
+  width: 60%;
+}
+.fond{position:absolute;padding-top:85px;top:0;left:0; right:0;bottom:0;
+ background-color:#00506b;}
+
+ .grow .fa {
+  transform: scale(1);
+  transition: transform .2s ease-in-out;
+
+}
+.grow:hover .fa {
+  transform: scale(1.2);
+}
+
+.fa-cog {
+  color: black;
+}
 
