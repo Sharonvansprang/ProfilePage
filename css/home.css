@@ -377,6 +377,7 @@ gallery-box {
  background-color:#00506b;}
 
  .grow .fa {
+  color: #348594;
   transform: scale(1);
   transition: transform .2s ease-in-out;
 
@@ -389,3 +390,59 @@ gallery-box {
   color: black;
 }
 
+/*.pictureskills {
+  background-image: url("../image/dots.jpg");
+}*/
+
+.bklas {
+  text-decoration: none
+}
+/*profile*/
+.ctrbutton {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.pictureborder {
+  border: #348594 2px solid;
+}
+/*skills hart*/
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+/*lightbox*/
