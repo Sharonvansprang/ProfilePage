@@ -445,4 +445,55 @@ gallery-box {
   animation-name: pulse;
 }
 
-/*lightbox*/
+/*footer*/
+.banner2 {
+  /*  background: url(startup.jpg) no-repeat;*/
+  /*background-attachment: fixed;*/
+  min-height: 300px;
+  position: relative;
+  overflow: hidden;
+  /****************************************************
+  * set the backround image to 100% width of the screen
+  *****************************************************/
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+
+/*.banner2 h1,
+.banner2 p {
+  color: white;
+  font-size: 15px;
+}
+.howto-margin {
+  margin-top: 35px;
+  margin-bottom:40px;
+}*/
+
+/*.banner2 .row {
+  margin-top: 150px;
+}
+*/
+hr { background: #ddd; width: 90%; margin: 0 auto; height: 1px; display: inline-block; }
+header { height: 10vh; }
+section { min-height: 300px; }
+.social-wrap { display: block; text-align: center; height: 35vh; position: absolute; bottom: 0px; width: 100%; background: #348594; min-height: 250px; -webkit-transition: background .5s ease-in-out; -moz-transition: background .5s ease-in-out; -ms-transition: background .5s ease-in-out; -o-transition: background .5s ease-in-out; transition: background .5s ease-in-out; }
+.social-wrap h1 { font-size: 50px; color: #fff; margin-bottom: 20px; }
+.social-wrap ul{ padding:0px;}
+.social-wrap li { display: inline-block; padding: 0px 4px; font-size: 50px; }
+.social-wrap li a { color: #fff; opacity: .7; }
+.social-wrap li:hover a { color: #fff; opacity: 1; }
+.social-wrap .heading { display: block }
+.hide { display: none; }
+.social-wrap.socialbg1 .heading,
+.social-wrap.socialbg2 .heading,
+.social-wrap.socialbg3 .heading,
+.social-wrap.socialbg4 .heading { display: none; }
+.socialbg1 { background: #2d8286; }
+.socialbg2 { background: #ad6b77; }
+.socialbg3 { background: #b2a75c; }
+.socialbg4 { background: #b2a75c; }
+.socialbg1 .text1, .socialbg2 .text2, .socialbg3 .text3, .socialbg4 .text4   { display: block }

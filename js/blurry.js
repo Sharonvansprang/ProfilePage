@@ -34,4 +34,8 @@
   });
 
 // lewagon project
-
+$('.social-wrap li a').each(function(i) {
+  $(this).hover(function(){
+    $(".social-wrap").toggleClass('socialbg'+(i+1));
+  });
+});
