@@ -29,10 +29,10 @@
        <div>
          <ul class="nav navbar-nav">
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Projecten</a></li>
-          <li><a href="#" id="call-li-1" class="btn-medium">contact me</a></li>
-          <li id="call-li-2">of bel mij op 06-19434529</li>
+          <li><a href="#aboutme">about me</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contactme" id="call-li-1" class="btn-medium">Contact me</a></li>
+          <li id="call-li-2"></li>
           <ul>
           </div>
         </div>
@@ -107,6 +107,9 @@
     Ik kan  de mooiste dingen online maken. Denk aan apps, websites en landingspagina’s. Ik creëer alles wat het <span style="color: #348594"><font size="25">hartje begeert</font> </span> voor zowel u als uw potentiele doelgroep. Oké bijna alles.
 
     Benieuwd wat ik voor jouw bedrijf kan betekenen?</p>
+    <div class="paddy">
+    <a href="#contactme2" class="btn btn-blockparty blockparty">Contact me</a>
+    </div>
   </div>
 
 
@@ -119,10 +122,10 @@
         <div class="col-xs-6">
 
           <div class="gallery-box howto-step">
-            <img src="image/phone.jpg">
-            <div class="content"><h2>Contact me</h2>
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal1">
-                Launch demo modal
+            <img src="image/phone.jpg" id="contactme">
+            <div class="content">
+              <button type="button" class="btn1 btn1-blockparty1 blockparty1" data-toggle="modal" data-target="#myModal1">
+                Call me
               </button>
             </div>
           </div>
@@ -156,7 +159,7 @@
 
                  </div>
                  <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-blockparty blockparty" data-dismiss="modal">Close</button>
                 </div>
               </div>
 
@@ -164,7 +167,7 @@
 
 
               <div class= "col-xs-5">
-                <div class= "gallery-box howto-step">
+                <div class= "gallery-box howto-step" id="aboutme">
                   <img id= "images1" src="image/window.jpg">
                   <div class="content"><h2>About me?</h2>
                   </div>
@@ -179,17 +182,19 @@
           <div class="col-xs-4">
             <div class="gallery-box howto-step">
               <img src="image/resume.jpg">
-              <div class="content"><h2>Skills</h2>
+              <div class="content">
                 <a href="#skilltiles" class="bklas">
-                  <button type="button" class="btn btn-secondary">Click Here</button> </a>
+                  <button type="button" class="btn btn-blockparty blockparty">Skills & knowledge</button></a>
                 </div>
               </div>
             </div>
 
             <div class="col-xs-4">
-              <div class="gallery-box howto-step">
+              <div class="gallery-box howto-step" id="project">
                 <img id= "images" src="image/projects.jpg">
-                <div class="content"><h2>Project le wagon</h2>
+                <div class="content">
+                <a href="#project1">
+                <button type="button" class="btn btn-blockparty blockparty">Project @ leWagon</button></a>
                 </div>
               </div>
             </div>
@@ -200,10 +205,11 @@
             <div class= "col-xs-5">
               <div class= "gallery-box howto-step">
                 <img id= "images1" src="image/koffie.jpg">
-                <div class="content"><h2>Koffie drinken?</h2>
+                <div class="content"><h2>Let's plan a coffee date</h2>
+                <p>and talk about how I can help you reach your digital challenges</p>
                   <!-- Button trigger modal -->
-                  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-                    Launch demo modal
+                  <button type="button" class="btn btn-blockparty blockparty" data-toggle="modal" data-target="#myModal">
+                    coffee planner
                   </button>
                 </div>
               </div>
@@ -230,7 +236,14 @@
             <div class= "col-xs-5">
               <div class= "gallery-box howto-step">
                 <img id= "images1" src="image/window.jpg">
-                <div class="content"><h2>About me?</h2>
+                <div class="content"><h2>I do what makes my soul happy</h2>
+                <p>learn more about me</p>
+                <div class="bounce">
+           <a href="#" class="chevron-link">
+            <i class="fontaws1 fa-angle-double-down"></i>
+          </a>
+        </div>
+</div>
                 </div>
               </div>
             </div>
@@ -243,11 +256,11 @@
 
       <!-- about me page -->
 <div class="parallax" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.15) 0%, rgba(0,36,61,0.23) 50%), url('image/dots.jpg');">
-<div class="container">
+<div class="container" id="aboutme">
 
-<div class="text-center" id="aboutme">
+<div class="text-center">
           <h2> <span style="color:#b2a75c"><font size ="22"><strong>About Me</font></span></h2></strong>
-          <p>to do and never work a day in your life</p>
+          <p>lorem ipsum dolor sit amet</p>
           <hr width="50%"></hr>
         </div>
         <span style="color:#b2a75c"><font size ="22"><h2><strong>About Me</h2></font></span></strong>
@@ -256,8 +269,9 @@
           <h3>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilisis eros. Sed erat. In in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa. Integer ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer. Etiam vitae nisl. In dignissim lacus ut ante. Cras elit lectus, bibendum a, adipiscing vitae, commodo et, dui. Ut tincidunt tortor. Donec nonummy, enim in lacinia pulvinar, velit tellus scelerisque augue, ac posuere libero urna eget neque. Cras ipsum. Vestibulum pretium, lectus nec venenatis volutpat, purus lectus ultrices risus, a condimentum risus mi et quam. Pellentesque auctor fringilla neque. Duis eu massa ut lorem iaculis vestibulum. Maecenas facilisis elit sed justo. Quisque volutpat malesuada velit. </h3></div>
           <div class="col-md-6">
           <img src= "image/me.jpg" width="50%" height="50%"/></div>
-           <button type="button" class="btn btn-primary btn-lg ctrbutton" data-toggle="modal" data-target="#myModal">
-          check my linkedin!</button>
+          <a href="https://nl.linkedin.com/in/sharon-van-sprang-msc-620a255" target="blank">
+           <button type="button" class="btnlink btn-blockpartylink blockpartylink">
+          check my linkedin!</button></a>
 </div>
 </div>
 </div>
@@ -628,7 +642,7 @@
 <div class="parallax" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.15) 0%, rgba(0,36,61,0.23) 50%), url('image/stars.jpg');">
 <div class="container paddy">
 <div class= "row">
-<div class= "col-xs-4 text-center">
+<div class= "col-xs-4 text-center" id="project1">
 <h2> <span style="color:#348594"><font size ="22">A new chapter in my life</h2></span></font>
 <p>I was ready for it! I have been experienced in (online)marketing strategy for almost 8 years. I have done it all.
 i worked for the public sector, commercial sector and startups. I even cofounded a company Remarketly. We helped business owners and startup with improving there online marketing strategy. With small budget we reached pretty good results. With one startup that streamd fitness video's we did a tremendously good job. We where flabber gasted with the amount of active people that where engaged in the fitness community. We got to know our customers better and better and found several ways to actually earn money. My head was filled with idea's. I wanted to Create a cool app that the community would love. Wanted to create effective landingpages. But I did not have any coding knowledge.</p>
@@ -641,7 +655,11 @@ i worked for the public sector, commercial sector and startups. I even cofounded
 </div>
 <div class= "col-xs-6">
 <img src="image/lewagon.jpg" width="100%" height="100%"/>
-<button type="button" class="btn btn-primary">Project</button>
+<div class="paddy">
+<a href="http://stick-toit.herokuapp.com/" target="blank">
+<button type="button" class="btn btn-blockparty blockparty">
+project:"stick to it"</button></a>
+</div>
 </div>
 <div class= "col-xs-4">
 <h2> <span style="color:#348594"><font size ="22">Stick to it! and make your life as pretty as on instagram</h2></font></span>
@@ -659,7 +677,7 @@ i worked for the public sector, commercial sector and startups. I even cofounded
 
 
 <footer>
-<div class="banner2 text-center">
+<div class="banner2 text-center" id="contactme2">
   <div class="footer-wrap">
     <div class="social-wrap">
      <div class="col-md-12">
