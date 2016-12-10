@@ -222,6 +222,7 @@ gallery-box {
 
 .bounce {
  position: absolute;
+ margin-top: 30px;
  bottom: 30px;
  left: 50% ;
  width: 60px;
@@ -299,7 +300,7 @@ gallery-box {
 .banner1 {
   /*  background: url(startup.jpg) no-repeat;*/
   /*background-attachment: fixed;*/
-  min-height: 600px;
+  min-height: 400px;
   position: relative;
   overflow: hidden;
   /****************************************************
@@ -319,12 +320,15 @@ gallery-box {
   font-size: 18px;
 }
 .howto-margin {
+    padding-left: 20px;
+    padding-right: 20px;
   margin-top: 35px;
   margin-bottom:40px;
+
 }
 
 .banner1 .row {
-  margin-top: 150px;
+  margin-top: 60px;
 }
 
 /*stars*/
@@ -790,4 +794,36 @@ a {
     background-color: transparent;
 }
 
+.paddingbot {
+  padding-bottom:30px;
+}
+.paddingsticktoit {
+      padding-left: 404px;
+}
 
+/*arrow*/
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+.bounce1 {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+.fa-arrow-down:before {
+    content: "\f063";
+    color:#ad6b77;
+}
