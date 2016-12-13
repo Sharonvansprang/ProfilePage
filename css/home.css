@@ -876,11 +876,21 @@ a {
 }
 */
 /*media queries*/
-@media all and (max-width: 850px) {
+  @media screen and (max-width:772px) {
+          .navbar {display:none;}
+          .navbar-inverse {display:none;}
+          .navbar-fixed-top {display:none;}
+          .custom-navbar {display:none;}
+       }
+     }
+
+@media all and (max-width: 480px) {
 
   .image-fluid {
-    height: 50%;
-    width: 50%;
+    min-height: 70%;
+    min-width: 70%;
+    min-height: auto;
+    min-width:auto;
     margin-top: 37px;
   }
 }
@@ -992,9 +1002,4 @@ a {
             }
           }
 
-          @media screen and (max-width:480px) {
-          .navbar {display:none;}
-          .navbar-inverse {display:none;}
-          .navbar-fixed-top {display:none;}
-          .custom-navbar {display:none;}
-       }
+
