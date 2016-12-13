@@ -892,12 +892,14 @@ a {
     min-height: auto;
     min-width:auto;
     margin-top: 37px;
+
   }
 }
 
 @media all and (max-width: 480px) {
   .image-fluid {
     width: 90vw;
+    padding-top: 20px;
   }
 }
 
@@ -933,7 +935,7 @@ a {
           font-size: 18px;
         }
         h2, .h2 {
-          margin-top: -101px;
+          margin-top: -79px;
           margin-bottom: 10px;
           font-weight:100px;
         }
@@ -944,7 +946,7 @@ a {
           font-size: 22px;
         }
         h2, .h2 {
-          margin-top: -101px;
+          margin-top: -5px;
           margin-bottom: 10px;
           font-weight:100px;
 
